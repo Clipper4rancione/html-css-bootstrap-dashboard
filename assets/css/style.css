@@ -1,0 +1,19 @@
+
+/* GENERALS */
+
+.mc-container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* HEADER */
+
+header{
+    width: 100%;
+    height: 80px;
+    background-color: #f8f8f9;
+}
+.logo{
+    width: 150px;
+    vertical-align: middle;
+}
