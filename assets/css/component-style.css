@@ -1,4 +1,8 @@
-
+[class^='col']{
+    background-color: rgba(255, 0, 0, 0.443);
+    border: 1px solid black;
+    min-height: 50px;
+}
 /* GENERALS */
 
 .mc-container{
@@ -78,3 +82,10 @@ aside ul li a{
     height: 100%;
     overflow: auto;
 }
+
+/* SECTION BOOLEAN */
+
+section#boolean{
+    background-color: #3a70df;
+}
+
