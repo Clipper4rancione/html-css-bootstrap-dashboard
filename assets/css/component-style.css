@@ -1,0 +1,26 @@
+header{
+    width: 100%;
+    background-color: #f8f8f9;
+}
+
+.mc-container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.nav-control-container .bi{
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.form-container{
+    width: 80%;
+}
+header nav input.form-control{
+    background-color: #e4e4e4;
+    border: none;
+}
+header nav form .search-btn{
+    border: none;
+    background-color: #e4e4e4;
+}
