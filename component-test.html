@@ -4,6 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                        <!-- GOOGLE FONTS -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap" rel="stylesheet"> 
+
+                                        <!-- /GOOGLE FONTS -->
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
@@ -13,34 +20,32 @@
 </head>
 <body>
     
-    <header>
-        <!-- --             NAVBAR              -- -->
-        <div class="mc-container">
-            <nav class="navbar bg-light">
-                <div class="container-fluid d-flex p-1">
-                    <span class="navbar-brand mb-0 h1">
-                        <img src="assets/img/logo.svg" alt="">
-                    </span>
-                    <form class="container-fluid form-container d-flex align-items-center ms-0">
-                        <div class="input-group">
-                        <span class="input-group-text search-btn" id="basic-addon1">
-                            <i class="bi bi-search"></i>
-                        </span>
-                        <input type="text" class="form-control" placeholder="Prova a cercare 'quanti ragazzi di Classe #75 mangiano la pizza?'">
-                        </div>
-                        <div class="nav-control-container d-flex ms-0">
-                            <i class="bi bi-list-ul"></i>
-                            <i class="bi bi-question-circle-fill"></i>
-                            <i class="bi bi-three-dots-vertical"></i>
-                            <i class="bi bi-bell-fill"></i>
-                        </div>
-                    </form>
-                    
+        <main class="wrapper">
+           
+            <!-- ASIDE -->
+
+            <aside class="d-flex flex-column justify-content-between">
+                <div class="menu-top">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Stats</a></li>
+                        <li><a href="#">Signals</a></li>
+                    </ul>
                 </div>
-            </nav>
-        </div>
-        <!-- --             /NAVBAR              -- -->
-    </header>
+                <div class="aside-bot">
+                    <div class="admin-panel">
+                        <ul>
+                            <li><a href="#">Admin</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </aside>
+            <div class="main-content">
+                
+            </div>
+
+            <!-- /ASIDE -->
+        </main>
 
 </body>
 </html>
