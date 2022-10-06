@@ -106,6 +106,7 @@ aside ul li a{
 /* SECTION BOOLEAN */
 
 section#boolean{
+    color: white;
     background-color: #3a70df;
 }
 /* /SECTION BOOLEAN */
@@ -113,14 +114,35 @@ section#boolean{
 /* SECTION TABS */
 
 /* TABLE */
-
+thead{
+    border-bottom: 1px solid black;
+}
 .little-col{
     width: 110px;
 }
 
 
 /* TABLE */
+.table-wrapper{
+    line-height: 40px;
+}
 
+.mc-table .btn{
+    width: 30px;
+    height: 30px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #4074f3;
+    border: 1px solid #4074f3;
+
+    transition: all 0.5s;
+}
+.mc-table .btn:hover{
+    color: white;
+    background-color: #4074f3;
+}
 /* TO-DO */
 
 .todo-list{
