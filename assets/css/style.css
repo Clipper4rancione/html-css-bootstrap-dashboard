@@ -1,8 +1,14 @@
+/* [class^='col']{
+    background-color: rgba(255, 0, 0, 0.443);
+    border: 1px solid black;
+    min-height: 50px;
+} */
 
 /* UTILITY */
 
 .card-borders{
-    border: 1px solid rgb(201, 201, 201);
+    border: 1px solid #dededd;
+    border-radius: 5px;
 }
 
 /* /UTILITY */
@@ -28,11 +34,12 @@ body{
 }
 
 .card-header{
-    border-bottom: 1px solid black;
-    padding: 7px;
+    background-color: #f6f6f6;
+    border-bottom: 1px solid #dededd;
 }
 
 ul{
+    padding: 0;
     list-style: none;
 }
 
@@ -105,7 +112,52 @@ section#boolean{
 
 /* SECTION TABS */
 
+/* TABLE */
+
 .little-col{
     width: 110px;
 }
+
+
+/* TABLE */
+
+/* TO-DO */
+
+.todo-list{
+    margin-top: 10px;
+}
+
+.todo-list ul{
+    border: 1px solid #dededd;
+    border-radius: 10px;
+}
+
+.todo-list ul li{
+    padding: 8px;
+    border-bottom: 1px solid #dededd;
+    
+}
+.todo-list ul li:last-child{
+    border: none;
+}
+/* /TO-DO */
+
+/* CHART */
+
+.mc-chart .chart-img{
+    width: 100%;
+    font-size: .9rem;
+}
+.chart-img img{
+    width: 100%;
+}
+.mc-chart ul li{
+    font-size: .9rem;
+    padding: 7px;
+    border-bottom: 1px solid #dededd;
+}
+.mc-chart ul li:last-child{
+    border-bottom: none;
+}
+/* /CHART */
 /* /SECTION TABS */
