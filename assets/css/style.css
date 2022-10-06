@@ -112,6 +112,19 @@ section#boolean{
     color: white;
     background-color: #3a70df;
 }
+.h-title .title{
+    font-size: 2.5rem;
+}
+.mc-badge-head{
+    background-color: #315db3;
+    border-radius: 10px;
+    font-size: .8rem;
+    font-weight: 800;
+    padding: 5px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
 /* /SECTION BOOLEAN */
 
 /* SECTION TABS */
