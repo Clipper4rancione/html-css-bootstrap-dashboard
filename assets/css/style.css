@@ -28,7 +28,7 @@ body{
 }
 
 .main-content{
-    width: 95%;
+    width: 92%;
     height: 100%;
     overflow: auto;
 }
@@ -64,6 +64,9 @@ header{
 header i{
     font-size: 20px;
 }
+header i.bell{
+    color: #ef9338;
+}
 
 header input.form-control{
     background-color: #c8c8c8;
@@ -82,11 +85,11 @@ header input.form-control{
 /* ASIDE NAV */
 
 aside{
-    width: 5%;
+    width: 8%;
     height: 100%;
     font-family: 'Poppins', sans-serif;
-    /* DEBUG */
-    background-color: rgba(49, 48, 48, 0.578);
+    background-image: url(../img/sidebar-bg.png);
+    background-color: #1f2d40;
 }
 aside ul{
     list-style: none;
@@ -120,7 +123,14 @@ thead{
 .little-col{
     width: 110px;
 }
+tbody tr img{
+    width: 30px;
+    vertical-align: middle;
+}
+.mc-badge{
+    margin: 0 auto;
 
+}
 
 /* TABLE */
 .table-wrapper{
@@ -143,6 +153,20 @@ thead{
     color: white;
     background-color: #4074f3;
 }
+
+.action{
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #6d747b;
+    border: 1px solid #6d747b;
+    border-radius: 3px;
+}
+
 /* TO-DO */
 
 .todo-list{
