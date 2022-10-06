@@ -1,4 +1,11 @@
 
+/* UTILITY */
+
+.card-borders{
+    border: 1px solid rgb(201, 201, 201);
+}
+
+/* /UTILITY */
 /* GENERALS */
 body{
     font-family: 'Roboto', sans-serif;
@@ -13,6 +20,22 @@ body{
     height: 100vh;
     padding-top: 80px;
 }
+
+.main-content{
+    width: 95%;
+    height: 100%;
+    overflow: auto;
+}
+
+.card-header{
+    border-bottom: 1px solid black;
+    padding: 7px;
+}
+
+ul{
+    list-style: none;
+}
+
 
 /* HEADER */
 
@@ -72,13 +95,6 @@ aside ul li a{
 
 /* /ASIDE NAV */
 
-/* MAIN CONTENT */
-
-.main-content{
-    width: 95%;
-    height: 100%;
-    overflow: auto;
-}
 
 /* SECTION BOOLEAN */
 
@@ -86,3 +102,10 @@ section#boolean{
     background-color: #3a70df;
 }
 /* /SECTION BOOLEAN */
+
+/* SECTION TABS */
+
+.little-col{
+    width: 110px;
+}
+/* /SECTION TABS */
