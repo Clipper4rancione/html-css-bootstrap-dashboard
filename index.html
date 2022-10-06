@@ -21,31 +21,31 @@
     <header>
         <!-- --             NAVBAR              -- -->
         <div class="container-fluid">
-            <nav class="navbar bg-light">
-                <div class="container-fluid p-1">
-                    <span class="navbar-brand mb-0 h1">
-                        <img src="assets/img/logo.svg" alt="">
-                    </span>
-                    <form class="container-fluid form-container d-flex align-items-center ms-0">
-                        <div class="input-group">
+            <div class="row d-flex align-items-center">
+                <div class="col-2 d-flex align-items-center justify-content-center">
+                    <div class="logo">
+                        <img src="assets/img/logo.svg" alt="Log">
+                        <img src="assets/img/mobile-logo.png" class="logo-small d-none" alt="Logo-small">
+                    </div>
+                </div>
+                <div class="col-9 d-flex align-items-center">
+                    <div class="input-group">
                         <span class="input-group-text search-btn" id="basic-addon1">
                             <i class="bi bi-search"></i>
                         </span>
-                        <input type="text" class="form-control" placeholder="Prova a cercare 'quanti ragazzi di Classe #75 mangiano la pizza?'">
-                        </div>
-                        <div class="nav-control-container d-flex ms-0">
-                            <i class="bi bi-list-ul"></i>
-                            <i class="bi bi-question-circle-fill"></i>
-                            <i class="bi bi-three-dots-vertical"></i>
-                            <i class="bi bi-bell-fill"></i>
-                        </div>
-                    </form>
-                    
+                        <input type="text" class="form-control" placeholder="Prova a cercare 'quanti ragazzi di Classe #75 mangiano la pizza?'" aria-label="Username" aria-describedby="basic-addon1">
+                    </div>
                 </div>
-            </nav>
+                <div class="col-1 d-flex align-items-center justify-content-between">
+                    <i class="bi bi-list-ul"></i>
+                    <i class="bi bi-question-circle-fill"></i>
+                    <i class="bi bi-three-dots-vertical"></i>
+                    <i class="bi bi-bell-fill"></i>
+                </div>
+            </div>
         </div>
-        <!-- --             /NAVBAR              -- -->
     </header>
+        <!-- --             /NAVBAR              -- -->
 
         <main class="wrapper">
            
@@ -53,7 +53,7 @@
 
             <aside class="d-flex flex-column justify-content-between">
                 <div class="menu-top">
-                    <ul>
+                    <ul class="p-0">
                         <li><a href="#">Home</a></li>
                         <li><a href="#">Stats</a></li>
                         <li><a href="#">Signals</a></li>
@@ -61,7 +61,7 @@
                 </div>
                 <div class="aside-bot">
                     <div class="admin-panel">
-                        <ul>
+                        <ul class="p-0">
                             <li><a href="#">Admin</a></li>
                         </ul>
                     </div>
